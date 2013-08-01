@@ -1,4 +1,4 @@
-package us.bosch.rtc;
+package nlp;
 
 import cc.mallet.util.*;
 import cc.mallet.types.*;
