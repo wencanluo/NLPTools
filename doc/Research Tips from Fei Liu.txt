@@ -1,0 +1,39 @@
+* Talk Tips
+  - Introduction
+    What's the problem? Why it is important? Why other people cannot do? What are the challenges?
+  - Slow Down in the beginning to let people adapt to your accent
+  - Pronunciation
+    Annotation, Effective
+  - Take it easy
+	* Deep breath before start
+  - Q/A
+     1) Could you repeat the question? Could you say it again?
+	 2) Do you mean ...
+	 3) Can we take it offline?
+
+* Topic Selection
+  - Both HCI and NLP will be hot in a few years
+  - Pick up an advisor is more important since both HCL and NLP are good
+
+* Three ways for the career
+  - industry lab
+  - faculty
+  - software engineering
+  
+* How to publish good papers?
+  - All graduates are encouraged to publish their bullshit
+	* Don't be sad if a paper is refused
+	* The most citing paper might be refused four times
+  - PhD is a training process to know how to wrap up your problem
+  - Set up your connections by attending a conference
+	* Local Volunteer
+	* Elevator talk
+		*) Who are you? Which university are you from? Which year? What's your interest? What have you done? What's the motivation?
+		  i.e. I'm currently an intern at Bosch Research Center at Palo Alto doing NLU
+		
+	* People Map
+	  Who did you meet in each conference
+	* People are tending published their papers in their subline (ML)
+  - Don't forget Machine learning
+  - Be positive (You should believe your work first)
+  
