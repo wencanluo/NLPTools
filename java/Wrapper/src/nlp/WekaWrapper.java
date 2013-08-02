@@ -168,11 +168,11 @@ public class WekaWrapper {
 	
 	//public static double[] getProbDistribution(Classifier classifier, Instance ins)
 	public static void TrianTest(Instances trainset, Instances testset) throws Exception{
-		System.out.println(trainset.numAttributes());
-		System.out.println(trainset.numInstances());
+		//System.out.println(trainset.numAttributes());
+		//System.out.println(trainset.numInstances());
 		
-		System.out.println(testset.numAttributes());
-		System.out.println(testset.numInstances());
+		//System.out.println(testset.numAttributes());
+		//System.out.println(testset.numInstances());
 		
 		Classifier[] classifiers = {
 		//new Bagging(),
