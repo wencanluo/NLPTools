@@ -122,7 +122,11 @@
 <node CREATED="1368729898094" ID="ID_484923416" LINK="http://www.cyc.com/platform/opencyc" MODIFIED="1368729948922" TEXT="OpenCyc">
 <node CREATED="1369776710322" ID="ID_911700787" LINK="http://sourceforge.net/projects/opencyc/files/OpenCyc%204.0/" MODIFIED="1369776718468" TEXT="installation"/>
 </node>
-<node CREATED="1368729812344" ID="ID_246353513" LINK="http://www.mpi-inf.mpg.de/yago-naga/yago/" MODIFIED="1368729988766" TEXT="YAGO"/>
+<node CREATED="1368729812344" ID="ID_246353513" LINK="http://www.mpi-inf.mpg.de/yago-naga/yago/" MODIFIED="1368729988766" TEXT="YAGO">
+<node CREATED="1375914831354" ID="ID_989387696" MODIFIED="1375914832695" TEXT="tool">
+<node CREATED="1375914833546" ID="ID_67139834" LINK="http://mcquesten.net/dishYago/" MODIFIED="1375914842653" TEXT="dishYago"/>
+</node>
+</node>
 <node CREATED="1368812113489" ID="ID_1913421539" LINK="http://dbpedia.org/About" MODIFIED="1368812180673" TEXT="DBpedia">
 <node CREATED="1375146264941" ID="ID_1056377293" LINK="http://wifo5-03.informatik.uni-mannheim.de/bizer/toolkits/" MODIFIED="1375146270062" TEXT="tools"/>
 </node>
