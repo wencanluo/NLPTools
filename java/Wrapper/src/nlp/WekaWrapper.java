@@ -180,9 +180,9 @@ public class WekaWrapper {
 		//new IBk(),
 		//new IBk(3),
 		//new IBk(5),
-		//new NaiveBayes(),
+		new NaiveBayes(),
 		//new J48(),
-		new SMO(),
+		//new SMO(),
 		//newVote(),
 		};
 		
