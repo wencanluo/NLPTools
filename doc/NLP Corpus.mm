@@ -79,6 +79,7 @@
 <node CREATED="1368738544416" ID="ID_342779685" LINK="https://framenet.icsi.berkeley.edu/fndrupal/" MODIFIED="1368898666438" POSITION="left" TEXT="FrameNet"/>
 <node CREATED="1375141042303" ID="ID_1335518373" LINK="http://wordnet.princeton.edu/" MODIFIED="1375141069345" POSITION="left" TEXT="WordNet">
 <node CREATED="1375141046479" ID="ID_900439662" LINK="http://nltk.googlecode.com/svn/trunk/doc/howto/wordnet.html" MODIFIED="1375141049457" TEXT="Usage"/>
+<node CREATED="1375982896725" ID="ID_1259654071" LINK="http://wndomains.fbk.eu/wnaffect.html" MODIFIED="1375982923907" TEXT="WordNet-Affect"/>
 </node>
 <node CREATED="1368814724755" ID="ID_1502760180" LINK="http://verbs.colorado.edu/~mpalmer/projects/verbnet.html" MODIFIED="1368814732229" POSITION="left" TEXT="VerbNet">
 <node CREATED="1375145534795" ID="ID_1178640236" LINK="http://n0b3l1a.blogspot.com/2009/10/wordnet-verbnet-via-python-nltk.html" MODIFIED="1375145539453" TEXT="Usage"/>

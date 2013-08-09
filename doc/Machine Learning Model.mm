@@ -14,7 +14,7 @@
 </node>
 </node>
 <node CREATED="1368295794015" ID="ID_1016824014" MODIFIED="1368295800003" TEXT="Implementation">
-<node CREATED="1368295761285" ID="ID_258311048" LINK="http://deeplearning.net/software/theano/" MODIFIED="1369248660540" TEXT="Theano">
+<node CREATED="1368295761285" FOLDED="true" ID="ID_258311048" LINK="http://deeplearning.net/software/theano/" MODIFIED="1375917607473" TEXT="Theano">
 <node CREATED="1368295721081" ID="ID_1182801503" LINK="http://deeplearning.net/software/theano/tutorial/index.html#tutorial" MODIFIED="1369261136872" TEXT="Tutorial"/>
 <node CREATED="1369248666890" ID="ID_1440971390" MODIFIED="1369248668856" TEXT="Install">
 <node CREATED="1369248746698" ID="ID_200641506" LINK="http://sourceforge.net/projects/mingw/files/" MODIFIED="1369248756450" TEXT="MinGW"/>
@@ -26,6 +26,7 @@
 </node>
 <node CREATED="1368295773363" ID="ID_1724079046" LINK="https://github.com/lisa-lab/DeepLearningTutorials" MODIFIED="1368295776856" TEXT="code"/>
 </node>
+<node CREATED="1375917608682" ID="ID_661800672" LINK="http://torch5.sourceforge.net/" MODIFIED="1375917615836" TEXT="Torch"/>
 </node>
 <node CREATED="1368740364816" ID="ID_26682810" MODIFIED="1368740367219" TEXT="Usage">
 <node CREATED="1368740368186" ID="ID_1221615698" MODIFIED="1368740369730" TEXT="Parsing">
@@ -40,6 +41,16 @@
 <node CREATED="1368981097388" ID="ID_1914141655" MODIFIED="1368981109136" TEXT="Papers">
 <node CREATED="1368979525372" ID="ID_789605918" LINK="http://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf" MODIFIED="1368979537125" TEXT="Collobert, 2008"/>
 <node CREATED="1369153575077" ID="ID_348476793" LINK="http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf" MODIFIED="1369153597030" TEXT="Bengio, 2009"/>
+<node CREATED="1375917040026" ID="ID_706389141" LINK="http://research.microsoft.com/pubs/118773/2010-ICASSP-DeepCRF4LanguageID.pdf" MODIFIED="1375917054829" TEXT="Yu 2010">
+<node CREATED="1375917043963" ID="ID_1829383752" MODIFIED="1375917047367" TEXT="Deep CRF"/>
+</node>
+</node>
+<node CREATED="1375917105626" ID="ID_521798674" MODIFIED="1375917108199" TEXT="People">
+<node CREATED="1375916798523" ID="ID_942443769" MODIFIED="1375917117922" TEXT="Geoffrey E. Hinton">
+<node CREATED="1375916834555" ID="ID_447312140" LINK="http://www.youtube.com/watch?v=AyzOUbkUf3M" MODIFIED="1375916838733" TEXT="Google talk"/>
+<node CREATED="1375916856650" ID="ID_1554231046" LINK="http://videolectures.net/jul09_hinton_deeplearn/" MODIFIED="1375916867660" TEXT="Lecture talk"/>
+<node CREATED="1375916900954" ID="ID_1309098400" LINK="http://www.cs.toronto.edu/~hinton/" MODIFIED="1375916904509" TEXT="web"/>
+</node>
 </node>
 <node CREATED="1375119269118" ID="ID_1462305756" MODIFIED="1375119272011" TEXT="Model">
 <node CREATED="1375119480535" ID="ID_222311404" MODIFIED="1375119486515" TEXT="Word Representation">
@@ -101,6 +112,9 @@
 <node CREATED="1369171665529" ID="ID_1464909267" MODIFIED="1369171669290" POSITION="right" TEXT="Ranking Model">
 <node CREATED="1369172677321" ID="ID_382503944" LINK="http://drona.csa.iisc.ernet.in/~shivani/Events/SDM-10-Tutorial/sdm10-tutorial.pdf" MODIFIED="1369172686920" TEXT="Tutorial"/>
 <node CREATED="1369172115341" ID="ID_1960109188" LINK="https://code.google.com/p/jforests/" MODIFIED="1369172121053" TEXT="Tree Ensembles"/>
+</node>
+<node CREATED="1376081422237" ID="ID_859426262" LINK="https://en.wikipedia.org/wiki/Support_vector_machine" MODIFIED="1376081594326" POSITION="right" TEXT="SVM">
+<node CREATED="1376081428828" ID="ID_1453085974" LINK="http://scikit-learn.org/stable/modules/svm.html#scores-probabilities" MODIFIED="1376081456911" TEXT="probability"/>
 </node>
 </node>
 </map>
