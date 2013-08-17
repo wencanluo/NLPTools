@@ -140,9 +140,10 @@ public class WekaWrapper {
 	}
 
 	public static void GetPridiction(Classifier classifier, Instances testset, String output) throws Exception{
-		
 		//output the labels
 		BufferedWriter writer = new BufferedWriter(new FileWriter(output));
+		writer.write("True" + "\t" + "Predict");
+		writer.newLine();
 		
 		Instances labeled = new Instances(testset);
 		
@@ -166,23 +167,16 @@ public class WekaWrapper {
 		writer.close();
 	}
 	
-	//public static double[] getProbDistribution(Classifier classifier, Instance ins)
-	public static void TrianTest(Instances trainset, Instances testset) throws Exception{
-		//System.out.println(trainset.numAttributes());
-		//System.out.println(trainset.numInstances());
-		
-		//System.out.println(testset.numAttributes());
-		//System.out.println(testset.numInstances());
-		
+	public static void TrianTest(Instances trainset, Instances testset, String test) throws Exception{
 		Classifier[] classifiers = {
 		//new Bagging(),
 		//new AdaBoostM1(),
 		//new IBk(),
 		//new IBk(3),
 		//new IBk(5),
-		new NaiveBayes(),
+		//new NaiveBayes(),
 		//new J48(),
-		//new SMO(),
+		new SMO(),
 		//newVote(),
 		};
 		
@@ -199,9 +193,12 @@ public class WekaWrapper {
 		
 			PrintResult(eval);
 			
-			GetPridiction(classifier, testset, "test.label.arff");
-			//GetPridictionDistribution(classifier, testset, "test.label.arff");
+			GetPridiction(classifier, testset, test + ".label");
 		}
+	}
+	
+	public static void TrianTest(Instances trainset, Instances testset) throws Exception{
+		TrianTest(trainset, testset, "test.label.arff");
 	}
 	
 	public static void TrianTest(String train, String test) throws Exception{
@@ -213,47 +210,8 @@ public class WekaWrapper {
 		Instances testset = LoadData(test);
 		System.out.println(trainset.numInstances());
 		
-		Classifier[] classifiers = {
-		//new Bagging(),
-		//new AdaBoostM1(),
-		//new IBk(),
-		//new IBk(3),
-		//new IBk(5),
-		//new NaiveBayes(),
-		//new J48(),
-		new SMO(),
-		//new LibLINEAR(),
-		};
-
-		for(int i = 0; i < classifiers.length; i++)
-		{
-			Classifier classifier = classifiers[i];
-			classifier.buildClassifier(trainset);
-		
-			Evaluation eval = new Evaluation(trainset);
-		
-			eval.evaluateModel(classifier, testset);
-		
-			PrintResult(eval);
-			
-			//output the labels
-			BufferedWriter writer = new BufferedWriter(new FileWriter(test + ".label.arff"));
-			
-			Instances labeled = new Instances(testset);
-			for(int j=0; j< testset.numInstances();j++)
-			{
-				double clslable = classifier.classifyInstance(testset.instance(j));
-				labeled.instance(j).setClassValue(clslable);
-				
-				writer.write(Double.toString(clslable));
-				writer.newLine();
-			}
-			
-			writer.flush();
-			writer.close();
-		}
+		TrianTest(trainset, testset, test);
 	}
-	
 	
 	public static Instances FeatureSelection(Instances data) throws Exception{
 		AttributeSelection filter = new AttributeSelection();  // package weka.filters.supervised.attribute!
