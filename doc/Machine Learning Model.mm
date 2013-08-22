@@ -7,6 +7,7 @@
 <node CREATED="1369153787358" ID="ID_930417696" LINK="http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial" MODIFIED="1369153795624" TEXT="Unsupervised Feature learning">
 <node CREATED="1369153478702" ID="ID_700288094" LINK="http://deeplearning.net/reading-list/tutorials/" MODIFIED="1369153493405" TEXT="Tutorial2"/>
 <node CREATED="1369244446821" ID="ID_596003283" LINK="https://github.com/dkyang/UFLDL-Tutorial-Exercise" MODIFIED="1369244453458" TEXT="code"/>
+<node CREATED="1377104396888" ID="ID_1499425264" LINK="http://nlp.stanford.edu/courses/NAACL2013/" MODIFIED="1377104413787" TEXT="Tutorial@NAACL"/>
 </node>
 <node CREATED="1369154546249" ID="ID_1738457774" MODIFIED="1369154549014" TEXT="Survey">
 <node CREATED="1369154572186" ID="ID_1123362371" LINK="http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf" MODIFIED="1369154623795" TEXT="Bengio2009"/>
@@ -27,6 +28,7 @@
 <node CREATED="1368295773363" ID="ID_1724079046" LINK="https://github.com/lisa-lab/DeepLearningTutorials" MODIFIED="1368295776856" TEXT="code"/>
 </node>
 <node CREATED="1375917608682" ID="ID_661800672" LINK="http://torch5.sourceforge.net/" MODIFIED="1375917615836" TEXT="Torch"/>
+<node CREATED="1377102928713" ID="ID_1796936213" LINK="https://code.google.com/p/word2vec/" MODIFIED="1377102937005" TEXT="word2vec"/>
 </node>
 <node CREATED="1368740364816" ID="ID_26682810" MODIFIED="1368740367219" TEXT="Usage">
 <node CREATED="1368740368186" ID="ID_1221615698" MODIFIED="1368740369730" TEXT="Parsing">
@@ -46,10 +48,18 @@
 </node>
 </node>
 <node CREATED="1375917105626" ID="ID_521798674" MODIFIED="1375917108199" TEXT="People">
-<node CREATED="1375916798523" ID="ID_942443769" MODIFIED="1375917117922" TEXT="Geoffrey E. Hinton">
+<node CREATED="1375916798523" ID="ID_942443769" LINK="http://www.cs.toronto.edu/~hinton/" MODIFIED="1377103925911" TEXT="Geoffrey E. Hinton">
 <node CREATED="1375916834555" ID="ID_447312140" LINK="http://www.youtube.com/watch?v=AyzOUbkUf3M" MODIFIED="1375916838733" TEXT="Google talk"/>
 <node CREATED="1375916856650" ID="ID_1554231046" LINK="http://videolectures.net/jul09_hinton_deeplearn/" MODIFIED="1375916867660" TEXT="Lecture talk"/>
-<node CREATED="1375916900954" ID="ID_1309098400" LINK="http://www.cs.toronto.edu/~hinton/" MODIFIED="1375916904509" TEXT="web"/>
+</node>
+<node CREATED="1377103976614" ID="ID_429109239" LINK="http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html" MODIFIED="1377104130222" TEXT="Yoshua Bengio"/>
+<node CREATED="1377103986951" ID="ID_838227102" LINK="http://ronan.collobert.com/" MODIFIED="1377104192801" TEXT="Ronan Collobert"/>
+<node CREATED="1377104442664" ID="ID_591266192" MODIFIED="1377104444694" TEXT="Stanford">
+<node CREATED="1377104344742" ID="ID_853472090" LINK="http://cs.stanford.edu/people/ang/" MODIFIED="1377104350296" TEXT="Andrew Ng"/>
+<node CREATED="1377104436936" ID="ID_782197965" LINK="http://nlp.stanford.edu/~manning/" MODIFIED="1377104478568" TEXT="Chris Manning">
+<node CREATED="1377104460295" ID="ID_1169411121" LINK="http://www.socher.org/" MODIFIED="1377104465209" TEXT="Richard Socher"/>
+<node CREATED="1377120125216" ID="ID_140552904" LINK="http://ai.stanford.edu/~wzou/" MODIFIED="1377120130898" TEXT="Youzhi Zou"/>
+</node>
 </node>
 </node>
 <node CREATED="1375119269118" ID="ID_1462305756" MODIFIED="1375119272011" TEXT="Model">
