@@ -176,8 +176,8 @@ public class WekaWrapper {
 		//new IBk(5),
 		//new NaiveBayes(),
 		//new J48(),
-		new SMO(),
-		//newVote(),
+		//new SMO(),
+		newVote(),
 		};
 		
 		for(int i = 0; i < classifiers.length; i++)
