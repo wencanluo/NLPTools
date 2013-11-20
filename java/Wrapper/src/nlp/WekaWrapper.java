@@ -3,6 +3,7 @@ package nlp;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -12,8 +13,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
-
-import de.bwaldvogel.liblinear.SolverType;
 
 import weka.attributeSelection.CfsSubsetEval;
 import weka.attributeSelection.GreedyStepwise;
@@ -25,14 +24,13 @@ import weka.core.SelectedTag;
 import weka.core.converters.ArffSaver;
 import weka.classifiers.trees.J48; //Decision Tree
 import weka.classifiers.bayes.NaiveBayes;
-import weka.classifiers.evaluation.output.prediction.PlainText;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.meta.Bagging;
 import weka.classifiers.meta.AdaBoostM1;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.lazy.IBk;
 
-import weka.classifiers.functions.LibLINEAR;
+//import weka.classifiers.functions.LibLINEAR;
 import weka.classifiers.functions.Logistic;
 
 import weka.classifiers.Classifier;
@@ -43,7 +41,6 @@ import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.AddID;
 import weka.filters.unsupervised.attribute.PrincipalComponents;
 import weka.filters.unsupervised.attribute.Remove;
-import wlsvm.WLSVM;
 
 import weka.classifiers.meta.Vote;
 
@@ -57,6 +54,19 @@ public class WekaWrapper {
 		data = Filter.useFilter(data, addid);
 		
 		return data;
+	}
+	
+	public static Instances applyCostMatrix(Instances dataset, String costmatrix){
+		CostMatrix matrix;
+		Instances newData = null;
+		try {
+			matrix = new CostMatrix(new BufferedReader(new FileReader(costmatrix)));
+			newData = matrix.applyCostMatrix(dataset, new Random(1));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return newData;
 	}
 	
 	public static void SaveInstances(Instances dataset, String file) throws IOException{
@@ -184,6 +194,7 @@ public class WekaWrapper {
 		{
 			Classifier classifier = classifiers[i];
 			classifier.buildClassifier(trainset);
+			//System.out.println(classifier);
 		
 			System.out.println("Classifier is done!");
 			
@@ -194,6 +205,7 @@ public class WekaWrapper {
 			PrintResult(eval);
 			
 			GetPridiction(classifier, testset, test + ".label");
+			//GetPridictionDistribution(classifier, testset, test + ".dis.label");
 		}
 	}
 	
@@ -246,10 +258,7 @@ public class WekaWrapper {
 			double weight = ins_w.value(wid);
 			dataset.instance(i).setWeight(weight);
 		}
-		
-		//for(int i=0;i<weights.numInstances();i++){
-		//	System.out.println(dataset.instance(i).weight());
-		//}
+
 		return dataset;
 	}
 	
