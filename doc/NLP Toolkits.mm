@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368118365805" ID="ID_629543952" MODIFIED="1371266657029" STYLE="bubble" TEXT="NLP Toolkits">
 <node CREATED="1368119345383" ID="ID_1937837666" MODIFIED="1371266657033" POSITION="right" TEXT="General">
@@ -35,9 +35,18 @@
 <node CREATED="1368722061157" ID="ID_215765316" MODIFIED="1368722066985" TEXT="Pronoun"/>
 <node CREATED="1368722067438" ID="ID_1738497708" MODIFIED="1368722073063" TEXT="Polarity"/>
 <node CREATED="1369161099460" ID="ID_1728645514" MODIFIED="1371266657066" TEXT="Word Clustering">
-<node CREATED="1369161105159" ID="ID_933718487" LINK="https://github.com/percyliang/brown-cluster" MODIFIED="1369161115073" TEXT="Brown Algorithm"/>
 <node CREATED="1369161770111" ID="ID_197250466" MODIFIED="1369161774740" TEXT="Word Net"/>
 <node CREATED="1369161779026" ID="ID_1042178221" LINK="http://rb-han.de.bosch.com/han/ieee/ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=540318" MODIFIED="1369161859407" TEXT="LSA"/>
+</node>
+<node CREATED="1390418719955" ID="ID_1917671769" MODIFIED="1390418725548" TEXT="Language Modeling">
+<node CREATED="1390418726767" ID="ID_810085421" LINK="http://www.speech.sri.com/projects/srilm/" MODIFIED="1390418759703" TEXT="Srilm"/>
+<node CREATED="1390418729548" ID="ID_1300294121" LINK="http://metaoptimize.com/projects/wordreprs/" MODIFIED="1390418742876" TEXT="wordreprs"/>
+</node>
+<node CREATED="1390853303131" ID="ID_1982981560" MODIFIED="1390853314443" TEXT="Distributed Word Representation">
+<node CREATED="1390853328959" ID="ID_119174783" LINK="https://code.google.com/p/word2vec/" MODIFIED="1390853334708" TEXT="word2vector"/>
+<node CREATED="1390853381253" ID="ID_1567492398" LINK="http://metaoptimize.com/projects/wordreprs/" MODIFIED="1390853395987" TEXT="wordreprs">
+<node CREATED="1369161105159" ID="ID_933718487" LINK="https://github.com/percyliang/brown-cluster" MODIFIED="1369161115073" TEXT="Brown Algorithm"/>
+</node>
 </node>
 </node>
 <node CREATED="1368550393324" ID="ID_1645098044" MODIFIED="1371266657067" TEXT="Pharse Level">
@@ -79,7 +88,14 @@
 </node>
 </node>
 <node CREATED="1368118569477" ID="ID_1602021657" MODIFIED="1371266657079" STYLE="bubble" TEXT="Machine Learning">
-<node CREATED="1368118581242" ID="ID_1639495854" MODIFIED="1371266657080" STYLE="bubble" TEXT="Java">
+<node CREATED="1368119878195" ID="ID_137180587" MODIFIED="1371266657092" TEXT="Python">
+<node CREATED="1368120269023" ID="ID_790115858" MODIFIED="1371266657094" TEXT="scikit-learn">
+<node CREATED="1368120283242" ID="ID_234672003" LINK="http://scikit-learn.org/dev/index.html" MODIFIED="1368120290102" TEXT="download"/>
+</node>
+<node CREATED="1368122224128" ID="ID_313330585" MODIFIED="1371266657096" TEXT="shogun">
+<node CREATED="1368122233985" ID="ID_211278259" LINK="http://www.shogun-toolbox.org/page/about/information" MODIFIED="1368122276258" TEXT="download"/>
+</node>
+</node>
 <node CREATED="1368118585852" ID="ID_1773902904" MODIFIED="1371266657083" STYLE="bubble" TEXT="Weka">
 <node CREATED="1368118639336" ID="ID_545945220" LINK="http://www.cs.waikato.ac.nz/ml/weka/" MODIFIED="1368118685883" STYLE="bubble" TEXT="download"/>
 <node CREATED="1368118741648" ID="ID_962387992" LINK="http://weka.wikispaces.com/Use+WEKA+in+your+Java+code" MODIFIED="1373648289208" TEXT="Usage">
@@ -94,14 +110,8 @@
 <node CREATED="1373648291532" ID="ID_343170437" MODIFIED="1373648294745" TEXT="Feature Selection"/>
 </node>
 </node>
-</node>
-<node CREATED="1368119878195" ID="ID_137180587" MODIFIED="1371266657092" TEXT="Python">
-<node CREATED="1368120269023" ID="ID_790115858" MODIFIED="1371266657094" TEXT="scikit-learn">
-<node CREATED="1368120283242" ID="ID_234672003" LINK="http://scikit-learn.org/dev/index.html" MODIFIED="1368120290102" TEXT="download"/>
-</node>
-<node CREATED="1368122224128" ID="ID_313330585" MODIFIED="1371266657096" TEXT="shogun">
-<node CREATED="1368122233985" ID="ID_211278259" LINK="http://www.shogun-toolbox.org/page/about/information" MODIFIED="1368122276258" TEXT="download"/>
-</node>
+<node CREATED="1392597230193" ID="ID_833885761" MODIFIED="1392597232255" TEXT="ILP">
+<node CREATED="1392597301594" ID="ID_798530596" LINK="http://www.gnu.org/software/glpk/" MODIFIED="1392597306936" TEXT="GLPK"/>
 </node>
 </node>
 <node CREATED="1368834574617" ID="ID_866056680" MODIFIED="1371266657098" TEXT="NLP">
@@ -139,7 +149,13 @@
 <node CREATED="1368130653219" ID="ID_126911867" LINK="http://nlp.stanford.edu/software/classifier.shtml" MODIFIED="1368130666030" TEXT="Stanford Classifier"/>
 <node CREATED="1368141159027" ID="ID_1501868055" LINK="http://www.cs.cmu.edu/~mccallum/bow/rainbow/" MODIFIED="1368141201717" TEXT="Rainbow"/>
 </node>
-<node CREATED="1368119381008" ID="ID_1574579201" MODIFIED="1368119436539" TEXT="Machine Translation"/>
+<node CREATED="1368119381008" ID="ID_1574579201" MODIFIED="1368119436539" TEXT="Machine Translation">
+<node CREATED="1390853195604" ID="ID_1401490191" LINK="http://nlp.stanford.edu/software/phrasal/" MODIFIED="1390853514467" TEXT="Phrasal"/>
+<node CREATED="1390853555169" ID="ID_722859421" LINK="http://www.statmt.org/moses/" MODIFIED="1390853781472" TEXT="moses">
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1390853686507" ID="ID_1304706870" LINK="https://code.google.com/p/giza-pp/" MODIFIED="1390853694101" TEXT="GIZA++"/>
+</node>
 <node CREATED="1368119441523" ID="ID_1575590935" MODIFIED="1368119443680" TEXT="QA"/>
 <node CREATED="1368119509039" ID="ID_1453730885" MODIFIED="1371266657137" TEXT="Named Entity Recognizer">
 <node CREATED="1368119512977" ID="ID_911671481" MODIFIED="1371266657138" TEXT="Stanfod NER">
@@ -194,8 +210,7 @@
 <node CREATED="1369784071839" ID="ID_1328138612" LINK="http://wifo5-03.informatik.uni-mannheim.de/bizer/toolkits/" MODIFIED="1369784080193" TEXT="Semantic Web "/>
 <node CREATED="1368744116847" ID="ID_1789191889" LINK="http://en.wikipedia.org/wiki/Word-sense_disambiguation" MODIFIED="1368744152487" TEXT="Word Sense Disambiguation"/>
 <node CREATED="1368827973819" ID="ID_946786239" MODIFIED="1368827991825" TEXT="Morpholexical Analysis"/>
-<node CREATED="1369162087469" ID="ID_380455768" MODIFIED="1371266657170" TEXT="Speech Recognizor">
-<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1390853140731" ID="ID_1013499914" MODIFIED="1390853141809" TEXT="Speech Recognizor">
 <node CREATED="1369162093865" ID="ID_1734611368" LINK="http://www.nuance.com/dragon/index.htm" MODIFIED="1369162102836" TEXT="Dragon"/>
 </node>
 </node>

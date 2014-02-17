@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368120046195" ID="ID_519623475" MODIFIED="1369429360547" STYLE="bubble" TEXT="NLP Corpus">
 <node CREATED="1368132933268" ID="ID_1210319505" MODIFIED="1368132941560" POSITION="right" TEXT="Text Classification">
@@ -120,6 +120,7 @@
 </node>
 <node CREATED="1368738954889" ID="ID_571845154" MODIFIED="1368738958429" POSITION="right" TEXT="StackOverflow"/>
 <node CREATED="1368657254751" ID="ID_1862974101" MODIFIED="1368657256514" POSITION="right" TEXT="Dictionary of affect"/>
+<node CREATED="1390853229103" ID="ID_1602863873" MODIFIED="1390853256555" POSITION="right" TEXT="Parallel Corpus"/>
 <node CREATED="1368812058873" ID="ID_1434394391" MODIFIED="1368812066352" POSITION="left" TEXT="WordKnowledge">
 <node CREATED="1368729898094" ID="ID_484923416" LINK="http://www.cyc.com/platform/opencyc" MODIFIED="1368729948922" TEXT="OpenCyc">
 <node CREATED="1369776710322" ID="ID_911700787" LINK="http://sourceforge.net/projects/opencyc/files/OpenCyc%204.0/" MODIFIED="1369776718468" TEXT="installation"/>
