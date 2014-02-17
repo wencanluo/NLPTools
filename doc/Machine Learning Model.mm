@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368295364143" ID="ID_1097755583" MODIFIED="1368295525972" STYLE="bubble" TEXT="Machine Learning Model">
 <node CREATED="1368295375349" ID="ID_1929208633" LINK="http://en.wikipedia.org/wiki/Deep_learning" MODIFIED="1368980626115" POSITION="right" STYLE="bubble" TEXT="Deep Learning">
@@ -29,6 +29,7 @@
 </node>
 <node CREATED="1375917608682" ID="ID_661800672" LINK="http://torch5.sourceforge.net/" MODIFIED="1375917615836" TEXT="Torch"/>
 <node CREATED="1377102928713" ID="ID_1796936213" LINK="https://code.google.com/p/word2vec/" MODIFIED="1377102937005" TEXT="word2vec"/>
+<node CREATED="1386087749815" ID="ID_19535407" MODIFIED="1386087755479" TEXT="matlab"/>
 </node>
 <node CREATED="1368740364816" ID="ID_26682810" MODIFIED="1368740367219" TEXT="Usage">
 <node CREATED="1368740368186" ID="ID_1221615698" MODIFIED="1368740369730" TEXT="Parsing">
