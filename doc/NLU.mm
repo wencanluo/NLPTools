@@ -1,4 +1,4 @@
-<map version="1.0.1">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368549803449" ID="ID_1617178244" LINK="Natural%20language%20understanding" MODIFIED="1368738037946" TEXT="NLU">
 <node CREATED="1368117482680" ID="ID_1766666498" MODIFIED="1368118691305" POSITION="right" STYLE="bubble" TEXT="MyWork">
@@ -332,7 +332,7 @@
 </node>
 </node>
 <node CREATED="1368724074032" ID="ID_221914044" MODIFIED="1379647802369" TEXT="Distributional Semantics">
-<node CREATED="1368725199391" FOLDED="true" ID="ID_842059526" MODIFIED="1368815310162" TEXT="distributional hypothesis">
+<node CREATED="1368725199391" ID="ID_842059526" MODIFIED="1389645973566" TEXT="distributional hypothesis">
 <node CREATED="1368725215032" ID="ID_1985724433" MODIFIED="1368725217001" TEXT="&quot;words which are similar in meaning occur in similar contexts&quot;">
 <node CREATED="1368725228469" ID="ID_1201076563" MODIFIED="1368725229704" TEXT="Rubenstein and Goodenough, 1965"/>
 </node>
