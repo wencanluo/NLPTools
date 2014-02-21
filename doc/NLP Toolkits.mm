@@ -1,4 +1,4 @@
-<map version="1.0.1">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368118365805" ID="ID_629543952" MODIFIED="1371266657029" STYLE="bubble" TEXT="NLP Toolkits">
 <node CREATED="1368119345383" ID="ID_1937837666" MODIFIED="1371266657033" POSITION="right" TEXT="General">
@@ -213,6 +213,7 @@
 <node CREATED="1390853140731" ID="ID_1013499914" MODIFIED="1390853141809" TEXT="Speech Recognizor">
 <node CREATED="1369162093865" ID="ID_1734611368" LINK="http://www.nuance.com/dragon/index.htm" MODIFIED="1369162102836" TEXT="Dragon"/>
 </node>
+<node CREATED="1393010287886" ID="ID_862062617" MODIFIED="1393010291527" TEXT="Summarization"/>
 </node>
 </node>
 </map>
