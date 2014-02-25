@@ -1,4 +1,4 @@
-<map version="1.0.1">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368118365805" ID="ID_629543952" MODIFIED="1371266657029" STYLE="bubble" TEXT="NLP Toolkits">
 <node CREATED="1368119345383" ID="ID_1937837666" MODIFIED="1371266657033" POSITION="right" TEXT="General">
@@ -209,6 +209,12 @@
 <node CREATED="1368827973819" ID="ID_946786239" MODIFIED="1368827991825" TEXT="Morpholexical Analysis"/>
 <node CREATED="1390853140731" ID="ID_1013499914" MODIFIED="1390853141809" TEXT="Speech Recognizor">
 <node CREATED="1369162093865" ID="ID_1734611368" LINK="http://www.nuance.com/dragon/index.htm" MODIFIED="1369162102836" TEXT="Dragon"/>
+</node>
+<node CREATED="1393010287886" ID="ID_862062617" MODIFIED="1393010291527" TEXT="Summarization">
+<node CREATED="1393010296419" ID="ID_1153750765" LINK="http://www.summarization.com/mead/" MODIFIED="1393010310235" TEXT="MEAD"/>
+<node CREATED="1393010532187" ID="ID_90062090" MODIFIED="1393010534897" TEXT="sentence ranking">
+<node CREATED="1393010535887" ID="ID_1473245686" LINK="http://people.cs.umass.edu/~vdang/ranklib.html" MODIFIED="1393010543745" TEXT="RankLib"/>
+</node>
 </node>
 </node>
 </node>
