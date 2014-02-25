@@ -87,7 +87,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1368118569477" ID="ID_1602021657" MODIFIED="1371266657079" STYLE="bubble" TEXT="Machine Learning">
+<node CREATED="1368118569477" ID="ID_1602021657" MODIFIED="1393293253545" STYLE="bubble" TEXT="Machine Learning">
 <node CREATED="1368119878195" ID="ID_137180587" MODIFIED="1371266657092" TEXT="Python">
 <node CREATED="1368120269023" ID="ID_790115858" MODIFIED="1371266657094" TEXT="scikit-learn">
 <node CREATED="1368120283242" ID="ID_234672003" LINK="http://scikit-learn.org/dev/index.html" MODIFIED="1368120290102" TEXT="download"/>
@@ -96,7 +96,7 @@
 <node CREATED="1368122233985" ID="ID_211278259" LINK="http://www.shogun-toolbox.org/page/about/information" MODIFIED="1368122276258" TEXT="download"/>
 </node>
 </node>
-<node CREATED="1368118585852" ID="ID_1773902904" MODIFIED="1371266657083" STYLE="bubble" TEXT="Weka">
+<node CREATED="1368118585852" FOLDED="true" ID="ID_1773902904" MODIFIED="1393293251811" STYLE="bubble" TEXT="Weka">
 <node CREATED="1368118639336" ID="ID_545945220" LINK="http://www.cs.waikato.ac.nz/ml/weka/" MODIFIED="1368118685883" STYLE="bubble" TEXT="download"/>
 <node CREATED="1368118741648" ID="ID_962387992" LINK="http://weka.wikispaces.com/Use+WEKA+in+your+Java+code" MODIFIED="1373648289208" TEXT="Usage">
 <node CREATED="1370378517087" ID="ID_1634694874" LINK="http://weka.8497.n7.nabble.com/how-to-do-Principal-Component-Analysis-in-java-code-for-both-TrainData-and-TestData-td23269.html" MODIFIED="1370378566610" TEXT="PCA"/>
@@ -109,9 +109,6 @@
 <node CREATED="1373306323356" ID="ID_703431818" LINK="https://code.google.com/p/andybrier-worm/source/browse/trunk/Worm/src/weka/VoteMain.java?r=8" MODIFIED="1373306338078" TEXT="Majority Voting"/>
 <node CREATED="1373648291532" ID="ID_343170437" MODIFIED="1373648294745" TEXT="Feature Selection"/>
 </node>
-</node>
-<node CREATED="1392597230193" ID="ID_833885761" MODIFIED="1392597232255" TEXT="ILP">
-<node CREATED="1392597301594" ID="ID_798530596" LINK="http://www.gnu.org/software/glpk/" MODIFIED="1392597306936" TEXT="GLPK"/>
 </node>
 </node>
 <node CREATED="1368834574617" ID="ID_866056680" MODIFIED="1371266657098" TEXT="NLP">

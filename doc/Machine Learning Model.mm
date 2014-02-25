@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1368295364143" ID="ID_1097755583" MODIFIED="1368295525972" STYLE="bubble" TEXT="Machine Learning Model">
+<node CREATED="1368295364143" ID="ID_1097755583" MODIFIED="1393293468024" STYLE="bubble" TEXT="Machine Learning Model">
 <node CREATED="1368295375349" ID="ID_1929208633" LINK="http://en.wikipedia.org/wiki/Deep_learning" MODIFIED="1368980626115" POSITION="right" STYLE="bubble" TEXT="Deep Learning">
 <node CREATED="1368295785865" ID="ID_1429942076" MODIFIED="1368295789273" TEXT="introducation">
 <node CREATED="1368295837332" ID="ID_1258013865" LINK="http://www.deeplearning.net/tutorial/" MODIFIED="1368295842855" TEXT="Tutorial"/>
@@ -94,7 +94,7 @@
 <node CREATED="1368135404079" ID="ID_6780781" LINK="http://mallet.cs.umass.edu/mallet-tutorial.pdf" MODIFIED="1368135407820" TEXT="Tutorial"/>
 </node>
 </node>
-<node CREATED="1368295531429" ID="ID_827233675" MODIFIED="1369157378543" POSITION="right" TEXT="Graph Model">
+<node CREATED="1368295531429" ID="ID_827233675" MODIFIED="1393293431262" POSITION="right" TEXT="Graph Model">
 <node CREATED="1368296646037" ID="ID_393727302" MODIFIED="1368296647043" TEXT="HITS">
 <node CREATED="1368660133748" ID="ID_169393622" LINK="#ID_954761480" MODIFIED="1368660284634" TEXT="Jung"/>
 </node>
@@ -115,10 +115,14 @@
 <node CREATED="1369157404398" ID="ID_1805599903" LINK="http://anuary.com/43/facebook-friend-rank-algorithm" MODIFIED="1369157411781" TEXT="Facebook Friend Rank"/>
 </node>
 <node CREATED="1369355116796" ID="ID_1081145496" MODIFIED="1369355119336" TEXT="BayesNet"/>
+<node CREATED="1393293270622" ID="ID_464240157" MODIFIED="1393293278918" TEXT="Collaborative filtering">
+<node CREATED="1393293375955" ID="ID_1185069562" MODIFIED="1393293395375" TEXT="probabilistic matrix factorization (PMF)"/>
+</node>
 </node>
 <node CREATED="1368296788900" ID="ID_47614271" LINK="https://code.google.com/p/crfpp/" MODIFIED="1369862974945" POSITION="right" TEXT="CRF"/>
 <node CREATED="1368742843282" ID="ID_168465434" MODIFIED="1368742848071" POSITION="right" TEXT="Integer Linear Programming ">
 <node CREATED="1368742856698" ID="ID_1749148966" LINK="http://lpsolve.sourceforge.net/5.5/" MODIFIED="1368742869972" TEXT="lp_solve"/>
+<node CREATED="1392597301594" ID="ID_798530596" LINK="http://www.gnu.org/software/glpk/" MODIFIED="1392597306936" TEXT="GLPK"/>
 </node>
 <node CREATED="1369171665529" ID="ID_1464909267" MODIFIED="1369171669290" POSITION="right" TEXT="Ranking Model">
 <node CREATED="1369172677321" ID="ID_382503944" LINK="http://drona.csa.iisc.ernet.in/~shivani/Events/SDM-10-Tutorial/sdm10-tutorial.pdf" MODIFIED="1369172686920" TEXT="Tutorial"/>
@@ -127,5 +131,6 @@
 <node CREATED="1376081422237" ID="ID_859426262" LINK="https://en.wikipedia.org/wiki/Support_vector_machine" MODIFIED="1376081594326" POSITION="right" TEXT="SVM">
 <node CREATED="1376081428828" ID="ID_1453085974" LINK="http://scikit-learn.org/stable/modules/svm.html#scores-probabilities" MODIFIED="1376081456911" TEXT="probability"/>
 </node>
+<node CREATED="1393293398297" ID="ID_1668071403" MODIFIED="1393293405265" POSITION="right" TEXT="Reinform learning"/>
 </node>
 </map>
