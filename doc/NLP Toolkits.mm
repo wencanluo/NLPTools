@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1368118365805" ID="ID_629543952" MODIFIED="1371266657029" STYLE="bubble" TEXT="NLP Toolkits">
 <node CREATED="1368119345383" ID="ID_1937837666" MODIFIED="1371266657033" POSITION="right" TEXT="General">
@@ -210,11 +210,18 @@
 <node CREATED="1390853140731" ID="ID_1013499914" MODIFIED="1390853141809" TEXT="Speech Recognizor">
 <node CREATED="1369162093865" ID="ID_1734611368" LINK="http://www.nuance.com/dragon/index.htm" MODIFIED="1369162102836" TEXT="Dragon"/>
 </node>
-<node CREATED="1393010287886" ID="ID_862062617" MODIFIED="1393010291527" TEXT="Summarization">
+<node CREATED="1393010287886" ID="ID_862062617" LINK="http://blog.mashape.com/post/58164039983/list-of-30-summarizer-apis-libraries-and-software" MODIFIED="1403577128158" TEXT="Summarization">
+<node CREATED="1403576967582" ID="ID_1670921803" MODIFIED="1403576969885" TEXT="extractive">
 <node CREATED="1393010296419" ID="ID_1153750765" LINK="http://www.summarization.com/mead/" MODIFIED="1393010310235" TEXT="MEAD"/>
+<node CREATED="1403625285070" ID="ID_672338986" LINK="https://github.com/Wing-NuS/Swing " MODIFIED="1403625292251" TEXT="SWing"/>
+<node CREATED="1403625303205" ID="ID_1290502118" LINK="http://www.cs.bgu.ac.il/~nlpproj/QCFS/dataset.html" MODIFIED="1403625311552" TEXT="QCFS"/>
 <node CREATED="1393010532187" ID="ID_90062090" MODIFIED="1393010534897" TEXT="sentence ranking">
-<node CREATED="1393010535887" ID="ID_1473245686" LINK="http://people.cs.umass.edu/~vdang/ranklib.html" MODIFIED="1393010543745" TEXT="RankLib"/>
+<node CREATED="1393010535887" ID="ID_1473245686" LINK="http://people.cs.umass.edu/~vdang/ranklib.html" MODIFIED="1393010543745" TEXT="RankLib">
+<node CREATED="1403577146826" ID="ID_821197935" MODIFIED="1403577147327" TEXT="LambdaMART"/>
 </node>
+</node>
+</node>
+<node CREATED="1403576970268" ID="ID_1336170666" MODIFIED="1403576973144" TEXT="abstractive"/>
 </node>
 </node>
 </node>
