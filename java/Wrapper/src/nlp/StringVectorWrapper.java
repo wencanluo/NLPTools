@@ -19,6 +19,7 @@ public class StringVectorWrapper {
 			filter_ngram.setUseStoplist(false);
 			filter_ngram.setLowerCaseTokens(false);
 			filter_ngram.setAttributeNamePrefix(attribute + "_");
+			filter_ngram.setOutputWordCounts(true);
 			NGramTokenizer tokenizer_pos = new NGramTokenizer();		
 			tokenizer_pos.setOptions(weka.core.Utils.splitOptions("-min 1 -max 1"));
 			filter_ngram.setTokenizer(tokenizer_pos);
