@@ -186,6 +186,7 @@
 </node>
 </node>
 <node CREATED="1384791751931" ID="ID_516518069" LINK="http://sourceforge.net/projects/semantics/" MODIFIED="1384791802319" TEXT="Sentence Similarity"/>
+<node CREATED="1407442561341" ID="ID_750789390" LINK="http://deeptutor2.memphis.edu/Semilar-Web/public/semilar-api.html" MODIFIED="1407442573807" TEXT="SEMILAR"/>
 </node>
 <node CREATED="1368549756029" ID="ID_1851565177" MODIFIED="1368549758219" TEXT="NLU"/>
 <node CREATED="1368738318637" ID="ID_707361049" LINK="http://en.wikipedia.org/wiki/Semantic_role_labeling" MODIFIED="1371266657166" TEXT="Sematic Role Labeling/Shallow Semantic Parsing">
@@ -215,6 +216,7 @@
 <node CREATED="1393010296419" ID="ID_1153750765" LINK="http://www.summarization.com/mead/" MODIFIED="1393010310235" TEXT="MEAD"/>
 <node CREATED="1403625285070" ID="ID_672338986" LINK="https://github.com/Wing-NuS/Swing " MODIFIED="1403625292251" TEXT="SWing"/>
 <node CREATED="1403625303205" ID="ID_1290502118" LINK="http://www.cs.bgu.ac.il/~nlpproj/QCFS/dataset.html" MODIFIED="1403625311552" TEXT="QCFS"/>
+<node CREATED="1407243871574" ID="ID_582802617" LINK="http://homepages.inf.ed.ac.uk/alouis/topicS.html" MODIFIED="1407243886649" TEXT="TopicSignature"/>
 <node CREATED="1393010532187" ID="ID_90062090" MODIFIED="1393010534897" TEXT="sentence ranking">
 <node CREATED="1393010535887" ID="ID_1473245686" LINK="http://people.cs.umass.edu/~vdang/ranklib.html" MODIFIED="1393010543745" TEXT="RankLib">
 <node CREATED="1403577146826" ID="ID_821197935" MODIFIED="1403577147327" TEXT="LambdaMART"/>
