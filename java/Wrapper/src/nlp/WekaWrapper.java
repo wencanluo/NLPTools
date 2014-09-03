@@ -308,7 +308,7 @@ public class WekaWrapper {
 			Classifier classifier = classifiers[i];
 			classifier.buildClassifier(dataset);
 			Evaluation eval = new Evaluation(dataset);
-		
+			
 			if(OutputPredictionFlag){
 				StringBuffer forPredictionsPrinting = new StringBuffer();
 			    

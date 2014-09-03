@@ -2,7 +2,6 @@
 # This script is used to store semantic role labeling for a sentence (a semantic role labeling  toolkit, see http://ml.nec-labs.com/senna/)
 # @author Wencan Luo (wencanluo.cn@gmail.com)
 #
-
 class SennaWord:
 	"""
 	@function: Word Object for Senna
@@ -75,10 +74,17 @@ class SennaSentence:
 		self.count = 0
 		self.slot = ""
 		
+		self.NounTag = {'NN':1, 'NNS':1, 'NNP':1, 'NNPS':1}
+		self.AdjTag = {'JJ':1, "JJR":1, "JJS":1}
+		
 	def __init__(self, grid):
 		"""
 		Create a sentence from the grid produced by SENNA
 		"""
+		
+		self.NounTag = {'NN':1, 'NNS':1, 'NNP':1, 'NNPS':1}
+		self.AdjTag = {'JJ':1, "JJR":1, "JJS":1}
+		
 		self.words = []
 		self.label = ""
 		#print "grid len = ", len(grid)
@@ -150,6 +156,91 @@ class SennaSentence:
 				assert(~start)
 			
 		return NP
+	
+	def getSyntaxNP(self):
+		NP = []
+		
+		#print self.getWords()
+		
+		stack = []
+		tmp = []
+		
+		hasNP = False
+		for word in self.words:
+			Added = False
+			
+			for i, ch in enumerate(word.psg):
+				if ch == '(':
+					if not hasNP: continue
+					stack.append(ch)
+				elif ch == ')':
+					if not hasNP: continue
+					
+					stack.pop()
+					if len(stack) == 0: #empty, the NP is done
+						if not Added: 
+							tmp.append(word.token)
+							Added = True
+						NP.append(" ".join(tmp))
+						tmp = []
+						hasNP = False
+				else:
+					if hasNP: 
+						if not Added: #add the word only once
+							tmp.append(word.token)
+							Added = True
+						continue
+					
+					if word.psg[i-1:].startswith('(NP'):
+						hasNP = True
+						stack.append('(')
+						tmp.append(word.token)
+						Added = True
+		
+		return NP
+	
+	def getAdjNounPrases(self):
+		AdjNoun = []
+		
+		tmp = []
+		start = False
+		
+		dictNoun = {}
+		dictAdj = {}
+		
+		#get noun and adjective dict
+		for i,word in enumerate(self.words):
+			if word.pos in self.NounTag:
+				if word.token not in dictNoun: #two words might be the same
+					dictNoun[word.token]  = []
+				dictNoun[word.token].append(i)
+		
+			if word.pos in self.AdjTag:
+				if word.token not in dictAdj:
+					dictAdj[word.token]  = []
+				dictAdj[word.token].append(i)
+		
+		for noun in dictNoun:
+			for p in dictNoun[noun]: #for every position
+				nearestAdj = None
+				nearestp = -1
+				
+				for adj in dictAdj:
+					for p2 in dictAdj[adj]:
+						if nearestAdj == None:
+							nearestAdj = adj
+							nearestp = p2
+						else:
+							if abs(p2-p) < abs(nearestp - p):
+								nearestAdj = adj
+								nearestp = p2
+				
+				if nearestAdj != None: #find one, add to the candidate
+					AdjNoun.append(nearestAdj + " " + noun)
+				else:
+					AdjNoun.append(noun)
+			
+		return AdjNoun
 	
 	def getPos(self):
 		"""
