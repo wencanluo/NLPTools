@@ -50,8 +50,15 @@
 </node>
 </node>
 <node CREATED="1368550393324" ID="ID_1645098044" MODIFIED="1371266657067" TEXT="Pharse Level">
-<node CREATED="1368141753092" ID="ID_10206046" MODIFIED="1371266657069" TEXT="NP chunk">
+<node CREATED="1368141753092" ID="ID_10206046" MODIFIED="1411419905969" TEXT="NP chunk">
 <node CREATED="1368141761695" ID="ID_1854396061" LINK="http://ifarm.nl/erikt/research/np-chunking.html" MODIFIED="1368141781662" TEXT="NP Chunking"/>
+</node>
+<node CREATED="1411419906651" ID="ID_754127436" MODIFIED="1411419911307" TEXT="phrase extraction">
+<node CREATED="1411419936698" ID="ID_1151979145" LINK="http://code.google.com/p/maui-indexer/" MODIFIED="1411419978214" TEXT="MAUI"/>
+<node CREATED="1411419927770" ID="ID_940324365" LINK="http://www.nzdl.org/Kea/" MODIFIED="1411420325841" TEXT="KEA"/>
+<node CREATED="1411419944412" ID="ID_1013104750" LINK="http://dragon.ischool.drexel.edu/xtract.asp" MODIFIED="1411419997110" TEXT="xTract"/>
+<node CREATED="1411419953636" ID="ID_581391674" LINK="http://alias-i.com/lingpipe/demos/tutorial/interestingPhrases/read-me.html" MODIFIED="1411420005097" TEXT="Lingpipe"/>
+<node CREATED="1411419960281" ID="ID_1262249998" LINK="https://cwiki.apache.org/MAHOUT/collocations.html" MODIFIED="1411420013536" TEXT="Mahout"/>
 </node>
 </node>
 <node CREATED="1368550408713" ID="ID_663467990" MODIFIED="1371266657072" TEXT="Sentence Level">

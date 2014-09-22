@@ -86,7 +86,7 @@ class TfIdf:
        Clients may wish to override this behavior with their own tokenization.
     """
     return re.findall(r"<a.*?/a>|<[^\>]*>|[\w'@#]+", str.lower())
-
+  
   def add_input_document(self, input):
     """Add terms in the specified document to the idf dictionary."""
     self.num_docs += 1
@@ -151,4 +151,5 @@ class TfIdf:
       myidf = self.get_idf(word)
       tfidf[word] = mytf * myidf
 
-    return sorted(tfidf.items(), key=itemgetter(1), reverse=True)
+    #return sorted(tfidf.items(), key=itemgetter(1), reverse=True)
+    return tfidf
