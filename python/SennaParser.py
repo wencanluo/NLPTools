@@ -18,7 +18,7 @@ def SennaParseWithCountDict(filename):
 	@param filename: string, the filename of the sennafile, the sennafile is an output file given by SENNA
 	@return: <list, dict>, the dict stores for the start line for each sentence
 	"""
-	lines = fio.readfile(filename)
+	lines = fio.ReadFile(filename)
 	print "nLine=", len(lines)
 	sys.stdout.flush()
 
@@ -47,7 +47,7 @@ def SennaParse(filename):
 	@param filename: string, the filename of the sennafile, the sennafile is an output file given by SENNA
 	@return: list, Each item is a SennaSentence
 	"""
-	lines = fio.readfile(filename)
+	lines = fio.ReadFile(filename)
 	#print "nLine=", len(lines)
 	sys.stdout.flush()
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 	if len(sys.argv) != 2:
 		#print "Incorrect Input. Usage: python SennaParser.py filename"
 		#sys.exit()
-		filename = '../20_Data/TextData/outputFromSenna.txt'
+		filename = '../data/senna/senna.2.MP.output'
 	else:
 		filename = sys.argv[1]
 		
