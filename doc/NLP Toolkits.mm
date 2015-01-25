@@ -22,6 +22,8 @@
 <node CREATED="1368482629998" ID="ID_188413188" LINK="http://www.galalaly.me/index.php/2011/05/tagging-text-with-stanford-pos-tagger-in-java-applications/" MODIFIED="1368482635013" TEXT="Example"/>
 </node>
 <node CREATED="1368218282889" ID="ID_1801890471" LINK="http://www.cs.cmu.edu/~cprose/TagHelper.html" MODIFIED="1368218295932" TEXT="TagHelper"/>
+<node CREATED="1422228573694" ID="ID_1313605049" LINK="http://www.coli.uni-saarland.de/~thorsten/tnt/" MODIFIED="1422228579011" TEXT="TnT"/>
+<node CREATED="1422228586874" ID="ID_1802214098" LINK="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/" MODIFIED="1422228594700" TEXT="TreeTagger"/>
 </node>
 <node CREATED="1368117530539" ID="ID_660734544" MODIFIED="1368118685883" STYLE="bubble" TEXT="word count"/>
 <node CREATED="1368296690392" ID="ID_1306883665" MODIFIED="1371266657060" TEXT="word categories">
@@ -40,7 +42,7 @@
 </node>
 <node CREATED="1390418719955" ID="ID_1917671769" MODIFIED="1390418725548" TEXT="Language Modeling">
 <node CREATED="1390418726767" ID="ID_810085421" LINK="http://www.speech.sri.com/projects/srilm/" MODIFIED="1390418759703" TEXT="Srilm"/>
-<node CREATED="1390418729548" ID="ID_1300294121" LINK="http://metaoptimize.com/projects/wordreprs/" MODIFIED="1390418742876" TEXT="wordreprs"/>
+<node CREATED="1422228776157" ID="ID_607383920" LINK="http://svr-www.eng.cam.ac.uk/~prc14/toolkit.html" MODIFIED="1422228782839" TEXT="CMU-Cambridge Statistical Language Modeling Toolkit"/>
 </node>
 <node CREATED="1390853303131" ID="ID_1982981560" MODIFIED="1390853314443" TEXT="Distributed Word Representation">
 <node CREATED="1390853328959" ID="ID_119174783" LINK="https://code.google.com/p/word2vec/" MODIFIED="1390853334708" TEXT="word2vector"/>
@@ -66,8 +68,18 @@
 <node CREATED="1368119226227" ID="ID_1794474607" MODIFIED="1371266657074" TEXT="Parser">
 <node CREATED="1368549979273" ID="ID_227549740" MODIFIED="1371266657075" TEXT="Dependant Parser">
 <node CREATED="1368119232555" ID="ID_249685948" LINK="http://nlp.stanford.edu/software/lex-parser.shtml" MODIFIED="1368119248305" TEXT="StanfordParser"/>
+<node CREATED="1422228621165" ID="ID_1219511138" LINK="https://code.google.com/p/berkeleyparser/" MODIFIED="1422228625972" TEXT="berkeleyparser"/>
+<node CREATED="1422228639114" ID="ID_913869368" LINK="http://www.ark.cs.cmu.edu/TurboParser/" MODIFIED="1422228646195" TEXT="TurboParser">
+<node CREATED="1422228647975" ID="ID_1324629597" MODIFIED="1422228649170" TEXT="ILP"/>
 </node>
-<node CREATED="1368549986811" ID="ID_1177168607" MODIFIED="1368549990330" TEXT="Shallow Parser"/>
+<node CREATED="1422228666429" ID="ID_1466493368" LINK="http://acl.cs.qc.edu/~lhuang/#software" MODIFIED="1422228675122" TEXT="Linear-Time Dynamic Programming Parser"/>
+<node CREATED="1422228686742" ID="ID_89422793" LINK="http://www.maltparser.org/" MODIFIED="1422228699893" TEXT="Malt Parser &#x2013; data-driven dependency parsing"/>
+<node CREATED="1422228708539" ID="ID_1025290623" LINK="http://www.seas.upenn.edu/~strctlrn/MSTParser/MSTParser.html" MODIFIED="1422228716886" TEXT="Minimum-Spanning Tree Parser (MST parser)"/>
+<node CREATED="1422228749353" ID="ID_1544092222" LINK="https://github.com/BLLIP/bllip-parser" MODIFIED="1422228756555" TEXT="Charniak Reranking Parser"/>
+</node>
+<node CREATED="1368549986811" ID="ID_1177168607" MODIFIED="1368549990330" TEXT="Shallow Parser">
+<node CREATED="1422228734808" ID="ID_1800898737" LINK="http://www.ark.cs.cmu.edu/SEMAFOR/" MODIFIED="1422228742924" TEXT="SEMAFOR &#x2013; FrameNet-based Semantic Role Labeling"/>
+</node>
 </node>
 <node CREATED="1368550436224" ID="ID_477289267" MODIFIED="1368550442433" TEXT="Sentence Type"/>
 <node CREATED="1368550445592" ID="ID_1301619153" MODIFIED="1368550448188" TEXT="Location?"/>
@@ -81,7 +93,7 @@
 </node>
 <node CREATED="1368119930992" ID="ID_1141533293" MODIFIED="1371266657077" TEXT="Speech">
 <node CREATED="1368296736090" ID="ID_692319223" MODIFIED="1368296747462" TEXT="Opensmile"/>
-<node CREATED="1368296747966" ID="ID_464438312" MODIFIED="1368296755326" TEXT="Praat"/>
+<node CREATED="1368296747966" ID="ID_464438312" LINK="http://www.fon.hum.uva.nl/praat/" MODIFIED="1422228831929" TEXT="Praat"/>
 <node CREATED="1376434794769" ID="ID_378352596" MODIFIED="1376434797070" TEXT="Speech">
 <node CREATED="1376434802336" ID="ID_863371659" MODIFIED="1376434804094" TEXT="types">
 <node CREATED="1376434805008" ID="ID_1321054951" MODIFIED="1376434825132" TEXT="Direct/quoted Speech"/>
@@ -98,32 +110,11 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1368118569477" ID="ID_1602021657" MODIFIED="1393293253545" STYLE="bubble" TEXT="Machine Learning">
-<node CREATED="1368119878195" ID="ID_137180587" MODIFIED="1371266657092" TEXT="Python">
-<node CREATED="1368120269023" ID="ID_790115858" MODIFIED="1371266657094" TEXT="scikit-learn">
-<node CREATED="1368120283242" ID="ID_234672003" LINK="http://scikit-learn.org/dev/index.html" MODIFIED="1368120290102" TEXT="download"/>
-</node>
-<node CREATED="1368122224128" ID="ID_313330585" MODIFIED="1371266657096" TEXT="shogun">
-<node CREATED="1368122233985" ID="ID_211278259" LINK="http://www.shogun-toolbox.org/page/about/information" MODIFIED="1368122276258" TEXT="download"/>
-</node>
-<node CREATED="1409078399614" ID="ID_765815845" MODIFIED="1409078400284" TEXT="scipy">
-<node CREATED="1409078409363" ID="ID_57040233" LINK="http://www.scipy.org/" MODIFIED="1409078412515" TEXT="download"/>
-</node>
-</node>
-<node CREATED="1368118585852" FOLDED="true" ID="ID_1773902904" MODIFIED="1393293251811" STYLE="bubble" TEXT="Weka">
-<node CREATED="1368118639336" ID="ID_545945220" LINK="http://www.cs.waikato.ac.nz/ml/weka/" MODIFIED="1368118685883" STYLE="bubble" TEXT="download"/>
-<node CREATED="1368118741648" ID="ID_962387992" LINK="http://weka.wikispaces.com/Use+WEKA+in+your+Java+code" MODIFIED="1373648289208" TEXT="Usage">
-<node CREATED="1370378517087" ID="ID_1634694874" LINK="http://weka.8497.n7.nabble.com/how-to-do-Principal-Component-Analysis-in-java-code-for-both-TrainData-and-TestData-td23269.html" MODIFIED="1370378566610" TEXT="PCA"/>
-<node CREATED="1370378577818" ID="ID_1176421926" LINK="http://www.cs.iastate.edu/~yasser/wlsvm/" MODIFIED="1370378581014" TEXT="libsvm">
-<node CREATED="1373490457494" ID="ID_823652798" LINK="http://www.uky.edu/~nyu222/tutorials/Weka.htm" MODIFIED="1373490460488" TEXT="svm"/>
-</node>
-<node CREATED="1370452121124" ID="ID_255155597" LINK="http://bayesianconspiracy.blogspot.com/2009/10/usr-bin-env-groovy-import-weka_10.html" MODIFIED="1370452548868" TEXT="OutputPrediction"/>
-<node CREATED="1370452128603" ID="ID_1969970623" LINK="http://weka.wikispaces.com/Instance+ID" MODIFIED="1370452169576" TEXT="AddID"/>
-<node CREATED="1370468272118" ID="ID_599575546" LINK="http://weka.wikispaces.com/Stemmers" MODIFIED="1370468977085" TEXT="Stemmer"/>
-<node CREATED="1373306323356" ID="ID_703431818" LINK="https://code.google.com/p/andybrier-worm/source/browse/trunk/Worm/src/weka/VoteMain.java?r=8" MODIFIED="1373306338078" TEXT="Majority Voting"/>
-<node CREATED="1373648291532" ID="ID_343170437" MODIFIED="1373648294745" TEXT="Feature Selection"/>
+<node CREATED="1422228811506" ID="ID_444285793" MODIFIED="1422228812899" TEXT="ASR">
+<node CREATED="1422228813702" ID="ID_1681676115" LINK="http://kaldi.sourceforge.net/" MODIFIED="1422228822158" TEXT="Kaldi &#x2013; speech recognition written in C++"/>
+<node CREATED="1422228843080" ID="ID_1995786276" LINK="http://htk.eng.cam.ac.uk/" MODIFIED="1422228849727" TEXT="HTK &#x2013; Hidden Markov Model Toolkit for speech recognition and synthesis"/>
+<node CREATED="1422228855360" ID="ID_84097115" LINK="http://freetts.sourceforge.net/docs/index.php" MODIFIED="1422228862356" TEXT="FreeTTS 1.2 &#x2013; A speech synthesizer written in Java"/>
+<node CREATED="1422228870431" ID="ID_365822286" LINK="http://cmusphinx.sourceforge.net/" MODIFIED="1422228877258" TEXT="CMU Sphinx &#x2013; Speech Recognition Toolkit"/>
 </node>
 </node>
 </node>
@@ -154,6 +145,11 @@
 <node CREATED="1375139720310" ID="ID_732226499" LINK="http://stackoverflow.com/questions/14149422/using-pip-behind-a-proxy" MODIFIED="1375139724698" TEXT="proxy"/>
 </node>
 </node>
+</node>
+<node CREATED="1422229259318" ID="ID_1118061357" MODIFIED="1422229260803" TEXT="Chinese">
+<node CREATED="1422229269242" ID="ID_693002686" LINK="http://ir.hit.edu.cn/ltp/" MODIFIED="1422229283640" TEXT="Ltp: Language Technology Platform (Open Source NLP Toolkit)"/>
+<node CREATED="1422229290086" ID="ID_1757390684" LINK="https://github.com/xpqiu/fnlp/" MODIFIED="1422229297748" TEXT="FudanNLP: An Open Source Toolkit for Chinese Natural Language Processing"/>
+<node CREATED="1422229304712" ID="ID_117490121" LINK="http://nlp.stanford.edu/software/segmenter.shtml" MODIFIED="1422229310699" TEXT="Stanford Chinese Word Segmenter"/>
 </node>
 </node>
 <node CREATED="1368119353773" ID="ID_1938639185" MODIFIED="1371266657131" POSITION="left" TEXT="Tasks">
@@ -240,6 +236,9 @@
 </node>
 </node>
 <node CREATED="1403576970268" ID="ID_1336170666" MODIFIED="1403576973144" TEXT="abstractive"/>
+</node>
+<node CREATED="1422229506590" ID="ID_1757995439" MODIFIED="1422229510373" TEXT="phrase extraction">
+<node CREATED="1422229523809" ID="ID_289899405" LINK="http://www.nzdl.org/Kea/" MODIFIED="1422229530273" TEXT="Kea &#x2013; Keyphrase Extraction System"/>
 </node>
 </node>
 </node>

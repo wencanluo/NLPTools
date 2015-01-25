@@ -15,7 +15,7 @@
 </node>
 </node>
 <node CREATED="1368295794015" ID="ID_1016824014" MODIFIED="1368295800003" TEXT="Implementation">
-<node CREATED="1368295761285" FOLDED="true" ID="ID_258311048" LINK="http://deeplearning.net/software/theano/" MODIFIED="1375917607473" TEXT="Theano">
+<node CREATED="1368295761285" ID="ID_258311048" LINK="http://deeplearning.net/software/theano/" MODIFIED="1422229438772" TEXT="Theano">
 <node CREATED="1368295721081" ID="ID_1182801503" LINK="http://deeplearning.net/software/theano/tutorial/index.html#tutorial" MODIFIED="1369261136872" TEXT="Tutorial"/>
 <node CREATED="1369248666890" ID="ID_1440971390" MODIFIED="1369248668856" TEXT="Install">
 <node CREATED="1369248746698" ID="ID_200641506" LINK="http://sourceforge.net/projects/mingw/files/" MODIFIED="1369248756450" TEXT="MinGW"/>
@@ -93,6 +93,7 @@
 <node CREATED="1368135319030" ID="ID_1603223156" LINK="http://mallet.cs.umass.edu/" MODIFIED="1368135326480" TEXT="download"/>
 <node CREATED="1368135404079" ID="ID_6780781" LINK="http://mallet.cs.umass.edu/mallet-tutorial.pdf" MODIFIED="1368135407820" TEXT="Tutorial"/>
 </node>
+<node CREATED="1422229462461" ID="ID_1225833664" LINK="http://gibbslda.sourceforge.net/" MODIFIED="1422229468529" TEXT="GibbsLDA++: A C/C++ Implementation of Latent Dirichlet Allocation"/>
 </node>
 <node CREATED="1368295531429" ID="ID_827233675" MODIFIED="1393293431262" POSITION="right" TEXT="Graph Model">
 <node CREATED="1368296646037" ID="ID_393727302" MODIFIED="1368296647043" TEXT="HITS">
@@ -119,10 +120,14 @@
 <node CREATED="1393293375955" ID="ID_1185069562" MODIFIED="1393293395375" TEXT="probabilistic matrix factorization (PMF)"/>
 </node>
 </node>
-<node CREATED="1368296788900" ID="ID_47614271" LINK="https://code.google.com/p/crfpp/" MODIFIED="1369862974945" POSITION="right" TEXT="CRF"/>
+<node CREATED="1368296788900" ID="ID_47614271" LINK="https://code.google.com/p/crfpp/" MODIFIED="1369862974945" POSITION="right" TEXT="CRF">
+<node CREATED="1422229136099" ID="ID_1351045896" LINK="http://crfpp.googlecode.com/svn/trunk/doc/index.html" MODIFIED="1422229141841" TEXT="CRF++: Yet Another CRF toolkit"/>
+</node>
 <node CREATED="1368742843282" ID="ID_168465434" MODIFIED="1368742848071" POSITION="right" TEXT="Integer Linear Programming ">
-<node CREATED="1368742856698" ID="ID_1749148966" LINK="http://lpsolve.sourceforge.net/5.5/" MODIFIED="1368742869972" TEXT="lp_solve"/>
-<node CREATED="1392597301594" ID="ID_798530596" LINK="http://www.gnu.org/software/glpk/" MODIFIED="1392597306936" TEXT="GLPK"/>
+<node COLOR="#338800" CREATED="1422229363195" ID="ID_1328285138" LINK="http://www.gurobi.com/" MODIFIED="1422229411952" TEXT="Gurobi &#x2013; Commercial solver with a trial version"/>
+<node COLOR="#990000" CREATED="1368742856698" ID="ID_1749148966" LINK="http://lpsolve.sourceforge.net/5.5/" MODIFIED="1422229397328" TEXT="Integer Linear Programming Toolkit -- lp_solve"/>
+<node CREATED="1392597301594" ID="ID_798530596" LINK="http://www.gnu.org/software/glpk/" MODIFIED="1422229346461" TEXT="GNU Linear Programming Kit (glpk)"/>
+<node CREATED="1422229351390" ID="ID_295982161" LINK="http://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/" MODIFIED="1422229357816" TEXT="IBM CPLEX Optimizer"/>
 </node>
 <node CREATED="1369171665529" ID="ID_1464909267" MODIFIED="1369171669290" POSITION="right" TEXT="Ranking Model">
 <node CREATED="1369172677321" ID="ID_382503944" LINK="http://drona.csa.iisc.ernet.in/~shivani/Events/SDM-10-Tutorial/sdm10-tutorial.pdf" MODIFIED="1369172686920" TEXT="Tutorial"/>
@@ -130,9 +135,30 @@
 </node>
 <node CREATED="1376081422237" ID="ID_859426262" LINK="https://en.wikipedia.org/wiki/Support_vector_machine" MODIFIED="1376081594326" POSITION="right" TEXT="SVM">
 <node CREATED="1376081428828" ID="ID_1453085974" LINK="http://scikit-learn.org/stable/modules/svm.html#scores-probabilities" MODIFIED="1376081456911" TEXT="probability"/>
+<node CREATED="1422229187545" ID="ID_1051562081" LINK="http://www.csie.ntu.edu.tw/~cjlin/libsvm/" MODIFIED="1422229194281" TEXT="LIBSVM &#x2013; A Library for Support Vector Machines"/>
+<node CREATED="1422229198821" ID="ID_1079855150" LINK="http://www.csie.ntu.edu.tw/~cjlin/liblinear/" MODIFIED="1422229204728" TEXT="LIBLINEAR &#x2013; A Library for Large Linear Classification"/>
+<node CREATED="1422229208747" ID="ID_1467865746" LINK="http://svmlight.joachims.org/" MODIFIED="1422229214724" TEXT="SVMlight &#x2013; Support Vector Machine"/>
 </node>
 <node CREATED="1393293398297" ID="ID_1668071403" MODIFIED="1393293405265" POSITION="right" TEXT="Reinform learning"/>
-<node CREATED="1414611219178" ID="ID_1970432995" LINK="https://mahout.apache.org/" MODIFIED="1414611227963" POSITION="right" TEXT="Mahout"/>
+<node CREATED="1422229020779" ID="ID_1807978782" MODIFIED="1422229025912" POSITION="right" TEXT="General">
+<node CREATED="1422229026706" ID="ID_672538628" MODIFIED="1422229027678" TEXT="Java">
+<node CREATED="1414611219178" ID="ID_1970432995" LINK="https://mahout.apache.org/" MODIFIED="1414611227963" TEXT="Mahout"/>
+<node CREATED="1422229049201" ID="ID_1463199543" LINK="http://www.cs.waikato.ac.nz/ml/weka/" MODIFIED="1422229107633" TEXT="Weka"/>
+<node CREATED="1422229165773" ID="ID_1579407289" LINK="http://mallet.cs.umass.edu/" MODIFIED="1422229173543" TEXT="Mallet &#x2013; A Java-based Machine Learning Toolkit"/>
+</node>
+<node CREATED="1422229032817" ID="ID_384195708" MODIFIED="1422229033900" TEXT="C"/>
+<node CREATED="1368119878195" ID="ID_137180587" MODIFIED="1371266657092" TEXT="Python">
+<node CREATED="1368120269023" ID="ID_790115858" MODIFIED="1371266657094" TEXT="scikit-learn">
+<node CREATED="1368120283242" ID="ID_234672003" LINK="http://scikit-learn.org/dev/index.html" MODIFIED="1368120290102" TEXT="download"/>
+</node>
+<node CREATED="1368122224128" ID="ID_313330585" MODIFIED="1371266657096" TEXT="shogun">
+<node CREATED="1368122233985" ID="ID_211278259" LINK="http://www.shogun-toolbox.org/page/about/information" MODIFIED="1368122276258" TEXT="download"/>
+</node>
+<node CREATED="1409078399614" ID="ID_765815845" MODIFIED="1409078400284" TEXT="scipy">
+<node CREATED="1409078409363" ID="ID_57040233" LINK="http://www.scipy.org/" MODIFIED="1409078412515" TEXT="download"/>
+</node>
+</node>
+</node>
 <node CREATED="1413253289753" ID="ID_863287637" MODIFIED="1413253292172" POSITION="left" TEXT="Clustering">
 <node CREATED="1413253307527" ID="ID_571496566" MODIFIED="1413253312463" TEXT="K-Means"/>
 <node CREATED="1413253313222" ID="ID_1169675405" MODIFIED="1413253315867" TEXT="K-Medoid"/>
